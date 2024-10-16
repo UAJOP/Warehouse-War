@@ -1,5 +1,5 @@
 README (English)
-Project Name: Knockdown Crates - My First Game
+Project Name: Warehouse Wreckage - My First Game
 
 Engine: Unreal Engine 5.4.4
 Type: Physics-based shooting game
@@ -24,7 +24,7 @@ Physics and Vectors: Worked with physics-based interactions and vector calculati
 This project marks the beginning of my journey in game development, and I look forward to exploring more advanced features and game design techniques in the future.
 
 README (Türkçe)
-Proje Adı: Kutu Devirme - İlk Oyunum
+Proje Adı: Depo yıkımı - İlk Oyunum
 
 Motor: Unreal Engine 5.4.4
 Tür: Fizik tabanlı atış oyunu
