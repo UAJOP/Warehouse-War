@@ -1,49 +1,79 @@
-README (English)
-Project Name: Warehouse Wreckage - My First Game
+# 🎯 Warehouse War
 
-Engine: Unreal Engine 5.4.4
-Type: Physics-based shooting game
-Game Mechanics:
+**Warehouse War** is a **physics-based shooting game** developed using **Unreal Engine 5.4.4**, where players must **strategically shoot crates using limited ammunition** to clear the level. The game focuses on **physics interactions, projectile mechanics, and precise aiming**.
 
-Objective: Knock down all crates using limited ammunition.
-Ammunition: The player has a total of 20 bullets.
-Restart Mechanism: Once the bullets are exhausted, there is a 5-second delay, after which the level automatically restarts.
-Gameplay Overview:
-This game is a simple and fun crate knockdown game where the player must shoot and topple crates within a limited ammo supply. It incorporates basic game design principles and physics to offer an engaging experience. Players must strategize to knock down as many crates as possible before their ammunition runs out.
+---
 
-Skills and Concepts Learned:
-During the development of this game, I gained valuable experience in several key areas:
+## 🎮 Game Overview
 
-Blueprints: Mastered the logic and structure of Unreal Engine’s Blueprints, allowing for visual scripting without the need for writing code.
-OOP Principles: Applied Object-Oriented Programming concepts to structure game logic and design.
-Level Design: Created and refined a simple yet effective game level with a focus on player interaction and engagement.
-Unreal Engine Fundamentals: Built a strong foundation in Unreal Engine 5, understanding key concepts such as lighting, physics, and user interface.
-Lighting and Positioning: Utilized lighting techniques to enhance the visual atmosphere and positioning for realistic environment design.
-Functions and Logic Flow: Created custom functions to manage game events such as ammo depletion and level restarting.
-Physics and Vectors: Worked with physics-based interactions and vector calculations to bring realism to the game mechanics.
-This project marks the beginning of my journey in game development, and I look forward to exploring more advanced features and game design techniques in the future.
+- **Engine:** Unreal Engine 5.4.4  
+- **Genre:** Physics-Based Shooting Game  
+- **Development:** Solo Project by **Kaan Balcı**  
+- **Core Mechanics:** Shooting, Physics, Ammunition Limitation  
+- **Objective:** Knock down all crates using **limited ammo**.  
+- **Current Content:** One playable level featuring **20 bullets per round** and an automatic level restart system.  
 
-README (Türkçe)
-Proje Adı: Depo yıkımı - İlk Oyunum
+---
 
-Motor: Unreal Engine 5.4.4
-Tür: Fizik tabanlı atış oyunu
-Oyun Mekaniği:
+## 🛠 Features
 
-Amaç: Sınırlı mermi ile tüm kutuları devirmek.
-Mermi: Oyuncunun toplamda 20 mermisi var.
-Yeniden Başlama Mekanizması: Mermiler bittiğinde 5 saniyelik bir bekleme süresi sonrası seviye otomatik olarak yeniden başlıyor.
-Oyun Genel Görünümü:
-Bu oyun, oyuncunun sınırlı mermiyle kutuları vurup devirmesi gereken basit ve eğlenceli bir oyun. Temel oyun tasarımı ve fizik prensipleri kullanılarak ilgi çekici bir deneyim sunuyor. Oyuncular, mermileri bitmeden önce mümkün olduğunca çok kutuyu devirmeyi stratejik olarak planlamak zorunda.
+✅ **Projectile Spawning & Aiming System**  
+✅ **Physics-Based Interactions for Realistic Gameplay**  
+✅ **Ammunition Limitation & Reloading Mechanic**  
+✅ **Dynamic Level Restart Mechanism**  
+✅ **Blueprint & OOP-Based Design**  
+✅ **Lighting & Positioning Enhancements**  
 
-Edinilen Beceriler ve Öğrenilen Kavramlar:
-Bu oyunu geliştirirken, şu anahtar alanlarda değerli deneyimler kazandım:
+---
 
-Blueprints: Unreal Engine’in Blueprints yapısını öğrenerek, kod yazmadan görsel betikleme ile oyun mantığı oluşturmayı öğrendim.
-OOP Prensipleri: Oyun mantığını ve tasarımını yapılandırmak için Nesne Yönelimli Programlama (OOP) kavramlarını uyguladım.
-Seviye Tasarımı: Basit ama etkili bir oyun seviyesi tasarlayarak oyuncu etkileşimine ve katılımına odaklandım.
-Unreal Engine Temelleri: Unreal Engine 5’te ışıklandırma, fizik ve kullanıcı arayüzü gibi önemli kavramları öğrenerek sağlam bir temel oluşturdum.
-Işıklandırma ve Konumlandırma: Ortam tasarımını gerçekçi hale getirmek için ışık teknikleri ve konumlandırma stratejilerini kullandım.
-Fonksiyonlar ve Mantık Akışı: Mermi bitimi ve seviye yeniden başlatılması gibi oyun olaylarını yönetmek için özel fonksiyonlar geliştirdim.
-Fizik ve Vektörler: Oyun mekaniklerine gerçekçilik katmak için fizik tabanlı etkileşimler ve vektör hesaplamalarıyla çalıştım.
-Bu proje, oyun geliştirme yolculuğumun başlangıcını işaret ediyor ve gelecekte daha gelişmiş özellikleri ve oyun tasarımı tekniklerini keşfetmeyi dört gözle bekliyorum.
+## 🔍 Gameplay Mechanics
+
+- **Shooting & Physics:** Players **fire projectiles at crates**, using physics to topple them.  
+- **Limited Ammo Challenge:** Each round provides **20 bullets**, requiring strategic aiming.  
+- **Level Restart System:** When ammo is depleted, the level **automatically restarts after 5 seconds**.  
+- **Interactive Environment:** **Physics-based crate interactions and dynamic object movement**.  
+
+---
+
+## 💡 Technologies & Concepts Used
+
+- **Blueprint System:** Visual scripting for game mechanics without traditional coding.  
+- **Object-Oriented Programming (OOP):** Applied **OOP principles** to structure game logic efficiently.  
+- **Physics & Vector Calculations:** Ensured realistic interactions between projectiles and objects.  
+- **Level Design & Player Engagement:** Iterated on a **simple yet interactive game environment**.  
+- **Lighting & Positioning:** Improved **game atmosphere through optimized lighting and object placement**.  
+
+---
+
+## 📥 Installation & How to Play
+
+1️⃣ Clone the repository:  ```bash
+git clone https://github.com/UAJOP/Warehouse-War.git
+2️⃣ Open the project in **Unreal Engine 5.4.4**.  
+3️⃣ Compile and launch the game.  
+4️⃣ Shoot down all crates before running out of bullets! 🎯  
+
+---
+
+## 🚀 Future Roadmap  
+
+🔹 **New Levels & Advanced Puzzles:** Expanding gameplay complexity.  
+🔹 **New Weapons & Power-Ups:** Introducing diverse shooting mechanics.  
+🔹 **Enhanced Physics-Based Interactions:** More realistic object behavior.  
+🔹 **Scoring & Leaderboard System:** Encouraging replayability and competition.  
+
+---
+
+## 📝 Contributing & Contact  
+
+If you would like to contribute, feel free to **fork** the repository and submit a **pull request**.  
+
+For any inquiries or feedback, contact me through:  
+🌐 **[kaan-balci.com](https://kaan-balci.com)**  
+
+**Warehouse War** is an evolving project, and I’m excited to expand its mechanics and level design in future updates. Stay tuned! 🎮🔥  
+## 📥 Download the Game
+
+🔗 **Download Warehouse War (Google Drive)**: [Click Here](https://drive.google.com/drive/folders/1mESj4otCL1pUFPKzI0DtH1STXvL9kSYx?usp=drive_link)  
+
+---
